@@ -16,6 +16,9 @@ body {
 #contact {
   z-index: 1000;
 }
+.caption{
+  top: 500px;
+}
 
 
 
@@ -64,6 +67,9 @@ body {
 }
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
+  .caption{
+    top: 400px;
+  }
   
 }
 /* Devices under 576px (sm) */
